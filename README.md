@@ -18,7 +18,7 @@ OppScout 将多平台公开内容采集、混合检索、Agentic DeepResearch、
 - 完成 plan/search/read/reflect/write 研究闭环、两轮专家讨论和结构化机会卡生成
 - 独立负责产品方案、Agent Runtime、RAG、FastAPI/PostgreSQL 后端、Next.js 工作台、部署与评测
 
-[查看完整项目案例 →](https://github.com/gaoming-a/OppScout-showcase) · [观看 30 秒演示 →](https://github.com/gaoming-a/OppScout-showcase/blob/main/assets/oppscout-product-promo-30s.mp4)
+[查看完整项目案例 →](https://github.com/gaoming-a/OppScout-showcase)
 
 ## Focus
 
