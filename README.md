@@ -1,34 +1,32 @@
 # 高明 · Ming Gao
 
-**Agent 开发 / 大模型应用开发｜2027 届电子信息硕士｜太原理工大学**
+**Agent 工程师 / 大模型应用开发工程师｜2027 届电子信息硕士**
 
-我关注 Agent 从一次回答走向持续执行任务时的工程问题：如何组织工具和上下文，如何在失败后恢复，如何让结论有证据，以及如何验证系统是否有效。
+太原理工大学 · 北京理工大学联合培养。连续三段 Agent / AI 后端实习，工作覆盖需求建模、Agent 编排、知识检索、生产部署与业务交付。
 
-主要使用 Python、PostgreSQL / pgvector 和 TypeScript，负责从 Agent Runtime、检索与评测到研究工作台的完整实现。
+我关注如何让 Agent 完成真实业务任务，把分散的信息整理成可使用的成果。
 
 ## 代表作品 · OppScout
 
-**面向情报研究的 Agent 平台：机会研究、舆情研究与风格专家。**
+**多源商业情报挖掘与线索发现 Agent 系统 · 独立设计与开发**
 
-[![OppScout 研究工作台，历史版本界面](https://raw.githubusercontent.com/gaoming-a/OppScout-showcase/main/assets/oppscout-home.png)](https://github.com/gaoming-a/OppScout-showcase)
+面向产品经理与创新业务团队，将一个研究方向推进为带来源的报告、潜在需求用户线索和下一步验证建议。
 
-从产品机会研究出发，我正在把研究能力整理为具有明确输入、证据和产物合同的 Tool / Skill，由专用 Intel Harness 管理执行边界。主要工作包括：
+[![OppScout 真实研究交付的产品方案](https://raw.githubusercontent.com/gaoming-a/OppScout-showcase/main/assets/opportunity-outcome.jpg)](https://github.com/gaoming-a/OppScout-showcase)
 
-- **Runtime 与工具执行**：任务状态机、Worker 租约、幂等调用、阶段预算、暂停恢复，以及已落地的 PostgreSQL checkpoint 与 fencing 切片。
-- **Agentic RAG**：FTS 与 BGE-M3 / pgvector 并行召回，RRF 融合、BGE Reranker 重排和独立的证据准入检查。
-- **DeepResearch**：规划、搜索、正文读取、缺口反思与补检，结合需求、市场、供给、合规四类角色形成带引用的决策产物。
-- **专家与评测**：把可观察语言习惯和领域知识分开；用基线 / 加载后多轮对话检查风格、事实和身份边界。
+<sub>真实案例：从小微卖家的公开反馈，形成测款复盘产品方案与验证建议。</sub>
 
-历史检索评测覆盖 **500 条已知来源查询**，RRF **Hit@50 为 83.8%**；另有 **36 条锁定查询、1,412 个逐候选人工双标签**的证据质量评测。统计口径、当前验收状态和局限均在项目案例中说明。
+- **发现真实需求**：从多源帖子、评论与回复中发现问题，保留用户线索和来源。
+- **交付深度研究**：自动规划检索、阅读与分析，形成有依据的研究结果。
+- **支持业务判断**：需求、市场、供给与合规角色共同审阅，形成产品方向与验证建议。
+- **在同一工作台继续研究**：查看过程、追问结论，并扩展到舆情研究与专家定制。
 
-**[项目介绍](https://github.com/gaoming-a/OppScout-showcase)** · [系统架构](https://github.com/gaoming-a/OppScout-showcase/blob/main/docs/architecture.md) · [界面演示](https://github.com/gaoming-a/OppScout-showcase/blob/main/docs/demo.md) · [评测结果](https://github.com/gaoming-a/OppScout-showcase/blob/main/docs/evaluation.md) · [工程案例](https://github.com/gaoming-a/OppScout-showcase/blob/main/docs/engineering-notes.md)
+项目实践累计交付 **100 份研究报告、1,000+ 条可追溯用户线索**，将单次机会调研由 **4–8 小时缩短至 30 分钟内**。
 
-项目源码保持私有，公开仓库展示设计、界面、评测方法与本人贡献。
+我负责需求与产品设计、Agent 研究流程、多源采集与检索、后端及研究工作台，完成系统集成与业务交付。
 
-## 技术方向
+**[查看项目](https://github.com/gaoming-a/OppScout-showcase)** · [真实运行 SOP](https://github.com/gaoming-a/OppScout-showcase/blob/main/docs/demo.md) · [功能成果](https://github.com/gaoming-a/OppScout-showcase/blob/main/docs/results.md) · [架构图](https://github.com/gaoming-a/OppScout-showcase/blob/main/docs/architecture.md)
 
-`Agent Runtime` · `Tool / Skill` · `Agentic RAG` · `DeepResearch` · `Agent Eval`
+`Agent` · `RAG` · `DeepResearch` · `多角色协同` · `Python` · `TypeScript / Next.js` · `PostgreSQL` · `Docker`
 
-`Python` · `PostgreSQL / pgvector` · `TypeScript / Next.js` · `SSE / NDJSON` · `Docker` · `GitHub Actions`
-
-目前关注 Agent 开发与大模型应用开发岗位。联系：**[1600064289@qq.com](mailto:1600064289@qq.com)**
+关注 Agent 开发与大模型应用开发岗位。**[1600064289@qq.com](mailto:1600064289@qq.com)**
